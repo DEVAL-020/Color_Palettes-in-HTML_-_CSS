@@ -1,0 +1,760 @@
+body {
+    font-family:sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.container div {
+    padding: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+}
+
+/* CSS color classes */
+.aliceblue {
+    background: aliceblue;
+    border-color: aliceblue;
+}
+
+.antiquewhite {
+    background: antiquewhite;
+    border-color: antiquewhite;
+}
+
+.aqua {
+    background: aqua;
+    border-color: aqua;
+}
+
+.aquamarine {
+    background: aquamarine;
+    border-color: aquamarine;
+}
+
+.azure {
+    background: azure;
+    border-color: azure;
+}
+
+.beige {
+    background: beige;
+    border-color: beige;
+}
+
+.bisque {
+    background: bisque;
+    border-color: bisque;
+}
+
+.black {
+    background: black;
+    border-color: black;
+    color: white;
+}
+
+.blanchedalmond {
+    background: blanchedalmond;
+    border-color: blanchedalmond;
+}
+
+.blue {
+    background: blue;
+    border-color: blue;
+    color: white;
+}
+
+.blueviolet {
+    background: blueviolet;
+    border-color: blueviolet;
+}
+
+.brown {
+    background: brown;
+    border-color: brown;
+}
+
+.burlywood {
+    background: burlywood;
+    border-color: burlywood;
+}
+
+.cadetblue {
+    background: cadetblue;
+    border-color: cadetblue;
+}
+
+.chartreuse {
+    background: chartreuse;
+    border-color: chartreuse;
+}
+
+.chocolate {
+    background: chocolate;
+    border-color: chocolate;
+}
+
+.coral {
+    background: coral;
+    border-color: coral;
+}
+
+.cornflowerblue {
+    background: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.cornsilk {
+    background: cornsilk;
+    border-color: cornsilk;
+}
+
+.crimson {
+    background: crimson;
+    border-color: crimson;
+    color: white;
+}
+
+.cyan {
+    background: cyan;
+    border-color: cyan;
+}
+
+.darkblue {
+    background: darkblue;
+    border-color: darkblue;
+    color: white;
+}
+
+.darkcyan {
+    background: darkcyan;
+    border-color: darkcyan;
+    color: white;
+}
+
+.darkgoldenrod {
+    background: darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+
+.darkgray {
+    background: darkgray;
+    border-color: darkgray;
+}
+
+.darkgreen {
+    background: darkgreen;
+    border-color: darkgreen;
+    color: white;
+}
+
+.darkkhaki {
+    background: darkkhaki;
+    border-color: darkkhaki;
+}
+
+.darkmagenta {
+    background: darkmagenta;
+    border-color: darkmagenta;
+    color: white;
+}
+
+.darkolivegreen {
+    background: darkolivegreen;
+    border-color: darkolivegreen;
+}
+
+.darkorange {
+    background: darkorange;
+    border-color: darkorange;
+}
+
+.darkorchid {
+    background: darkorchid;
+    border-color: darkorchid;
+    color: white;
+}
+
+.darkred {
+    background: darkred;
+    border-color: darkred;
+    color: white;
+}
+
+.darksalmon {
+    background: darksalmon;
+    border-color: darksalmon;
+}
+
+.darkseagreen {
+    background: darkseagreen;
+    border-color: darkseagreen;
+}
+
+.darkslateblue {
+    background: darkslateblue;
+    border-color: darkslateblue;
+    color: white;
+}
+
+.darkslategray {
+    background: darkslategray;
+    border-color: darkslategray;
+    color: white;
+}
+
+.darkturquoise {
+    background: darkturquoise;
+    border-color: darkturquoise;
+}
+
+.darkviolet {
+    background: darkviolet;
+    border-color: darkviolet;
+    color: white;
+}
+
+.deeppink {
+    background: deeppink;
+    border-color: deeppink;
+    color: white;
+}
+
+.deepskyblue {
+    background: deepskyblue;
+    border-color: deepskyblue;
+}
+
+.dimgray {
+    background: dimgray;
+    border-color: dimgray;
+}
+
+.dodgerblue {
+    background: dodgerblue;
+    border-color: dodgerblue;
+}
+
+.firebrick {
+    background: firebrick;
+    border-color: firebrick;
+    color: white;
+}
+
+.floralwhite {
+    background: floralwhite;
+    border-color: floralwhite;
+}
+
+.forestgreen {
+    background: forestgreen;
+    border-color: forestgreen;
+    color: white;
+}
+
+.fuchsia {
+    background: fuchsia;
+    border-color: fuchsia;
+}
+
+.gainsboro {
+    background: gainsboro;
+    border-color: gainsboro;
+}
+
+.ghostwhite {
+    background: ghostwhite;
+    border-color: ghostwhite;
+}
+
+.gold {
+    background: gold;
+    border-color: gold;
+}
+
+.goldenrod {
+    background: goldenrod;
+    border-color: goldenrod;
+}
+
+.gray {
+    background: gray;
+    border-color: gray;
+    color: white;
+}
+
+.green {
+    background: green;
+    border-color: green;
+    color: white;
+}
+
+.greenyellow {
+    background: greenyellow;
+    border-color: greenyellow;
+}
+
+.honeydew {
+    background: honeydew;
+    border-color: honeydew;
+}
+
+.hotpink {
+    background: hotpink;
+    border-color: hotpink;
+}
+
+.indianred {
+    background: indianred;
+    border-color: indianred;
+}
+
+.indigo {
+    background: indigo;
+    border-color: indigo;
+    color: white;
+}
+
+.ivory {
+    background: ivory;
+    border-color: ivory;
+}
+
+.khaki {
+    background: khaki;
+    border-color: khaki;
+}
+
+.lavender {
+    background: lavender;
+    border-color: lavender;
+}
+
+.lavenderblush {
+    background: lavenderblush;
+    border-color: lavenderblush;
+}
+
+.lawngreen {
+    background: lawngreen;
+    border-color: lawngreen;
+}
+
+.lemonchiffon {
+    background: lemonchiffon;
+    border-color: lemonchiffon;
+}
+
+.lightblue {
+    background: lightblue;
+    border-color: lightblue;
+}
+
+.lightcoral {
+    background: lightcoral;
+    border-color: lightcoral;
+}
+
+.lightcyan {
+    background: lightcyan;
+    border-color: lightcyan;
+}
+
+.lightgoldenrodyellow {
+    background: lightgoldenrodyellow;
+    border-color: lightgoldenrodyellow;
+}
+
+.lightgray {
+    background: lightgray;
+    border-color: lightgray;
+}
+
+.lightgreen {
+    background: lightgreen;
+    border-color: lightgreen;
+}
+
+.lightpink {
+    background: lightpink;
+    border-color: lightpink;
+}
+
+.lightsalmon {
+    background: lightsalmon;
+    border-color: lightsalmon;
+}
+
+.lightseagreen {
+    background: lightseagreen;
+    border-color: lightseagreen;
+}
+
+.lightskyblue {
+    background: lightskyblue;
+    border-color: lightskyblue;
+}
+
+.lightslategray {
+    background: lightslategray;
+    border-color: lightslategray;
+}
+
+.lightsteelblue {
+    background: lightsteelblue;
+    border-color: lightsteelblue;
+}
+
+.lightyellow {
+    background: lightyellow;
+    border-color: lightyellow;
+}
+
+.lime {
+    background: lime;
+    border-color: lime;
+}
+
+.limegreen {
+    background: limegreen;
+    border-color: limegreen;
+}
+
+.linen {
+    background: linen;
+    border-color: linen;
+}
+
+.magenta {
+    background: magenta;
+    border-color: magenta;
+}
+
+.maroon {
+    background: maroon;
+    border-color: maroon;
+    color: white;
+}
+
+.mediumaquamarine {
+    background: mediumaquamarine;
+    border-color: mediumaquamarine;
+}
+
+.mediumblue {
+    background: mediumblue;
+    border-color: mediumblue;
+    color: white;
+}
+
+.mediumorchid {
+    background: mediumorchid;
+    border-color: mediumorchid;
+}
+
+.mediumpurple {
+    background: mediumpurple;
+    border-color: mediumpurple;
+}
+
+.mediumseagreen {
+    background: mediumseagreen;
+    border-color: mediumseagreen;
+}
+
+.mediumslateblue {
+    background: mediumslateblue;
+    border-color: mediumslateblue;
+}
+
+.mediumspringgreen {
+    background: mediumspringgreen;
+    border-color: mediumspringgreen;
+}
+
+.mediumturquoise {
+    background: mediumturquoise;
+    border-color: mediumturquoise;
+}
+
+.mediumvioletred {
+    background: mediumvioletred;
+    border-color: mediumvioletred;
+    color: white;
+}
+
+.midnightblue {
+    background: midnightblue;
+    border-color: midnightblue;
+    color: white;
+}
+
+.mintcream {
+    background: mintcream;
+    border-color: mintcream;
+}
+
+.mistyrose {
+    background: mistyrose;
+    border-color: mistyrose;
+}
+
+.moccasin {
+    background: moccasin;
+    border-color: moccasin;
+}
+
+.navajowhite {
+    background: navajowhite;
+    border-color: navajowhite;
+}
+
+.navy {
+    background: navy;
+    border-color: navy;
+    color: white;
+}
+
+.oldlace {
+    background: oldlace;
+    border-color: oldlace;
+}
+
+.olive {
+    background: olive;
+    border-color: olive;
+}
+
+.olivedrab {
+    background: olivedrab;
+    border-color: olivedrab;
+}
+
+.orange {
+    background: orange;
+    border-color: orange;
+}
+
+.orangered {
+    background: orangered;
+    border-color: orangered;
+}
+
+.orchid {
+    background: orchid;
+    border-color: orchid;
+}
+
+.palegoldenrod {
+    background: palegoldenrod;
+    border-color: palegoldenrod;
+}
+
+.palegreen {
+    background: palegreen;
+    border-color: palegreen;
+}
+
+.paleturquoise {
+    background: paleturquoise;
+    border-color: paleturquoise;
+}
+
+.palevioletred {
+    background: palevioletred;
+    border-color: palevioletred;
+}
+
+.papayawhip {
+    background: papayawhip;
+    border-color: papayawhip;
+}
+
+.peachpuff {
+    background: peachpuff;
+    border-color: peachpuff;
+}
+
+.peru {
+    background: peru;
+    border-color: peru;
+}
+
+.pink {
+    background: pink;
+    border-color: pink;
+}
+
+.plum {
+    background: plum;
+    border-color: plum;
+}
+
+.powderblue {
+    background: powderblue;
+    border-color: powderblue;
+}
+
+.purple {
+    background: purple;
+    border-color: purple;
+    color: white;
+}
+
+.rebeccapurple {
+    background: rebeccapurple;
+    border-color: rebeccapurple;
+    color: white;
+}
+
+.red {
+    background: red;
+    border-color: red;
+    color: white;
+}
+
+.rosybrown {
+    background: rosybrown;
+    border-color: rosybrown;
+}
+
+.royalblue {
+    background: royalblue;
+    border-color: royalblue;
+}
+
+.saddlebrown {
+    background: saddlebrown;
+    border-color: saddlebrown;
+}
+
+.salmon {
+    background: salmon;
+    border-color: salmon;
+}
+
+.sandybrown {
+    background: sandybrown;
+    border-color: sandybrown;
+}
+
+.seagreen {
+    background: seagreen;
+    border-color: seagreen;
+    color: white;
+}
+
+.seashell {
+    background: seashell;
+    border-color: seashell;
+}
+
+.sienna {
+    background: sienna;
+    border-color: sienna;
+}
+
+.silver {
+    background: silver;
+    border-color: silver;
+}
+
+.skyblue {
+    background: skyblue;
+    border-color: skyblue;
+}
+
+.slateblue {
+    background: slateblue;
+    border-color: slateblue;
+}
+
+.slategray {
+    background: slategray;
+    border-color: slategray;
+}
+
+.snow {
+    background: snow;
+    border-color: snow;
+}
+
+.springgreen {
+    background: springgreen;
+    border-color: springgreen;
+}
+
+.steelblue {
+    background: steelblue;
+    border-color: steelblue;
+}
+
+.tan {
+    background: tan;
+    border-color: tan;
+}
+
+.teal {
+    background: teal;
+    border-color: teal;
+    color: white;
+}
+
+.thistle {
+    background: thistle;
+    border-color: thistle;
+}
+
+.tomato {
+    background: tomato;
+    border-color: tomato;
+}
+
+.turquoise {
+    background: turquoise;
+    border-color: turquoise;
+}
+
+.violet {
+    background: violet;
+    border-color: violet;
+}
+
+.wheat {
+    background: wheat;
+    border-color: wheat;
+}
+
+.white {
+    background: white;
+    border-color: white;
+}
+
+.whitesmoke {
+    background: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.yellow {
+    background: yellow;
+    border-color: yellow;
+}
+
+.yellowgreen {
+    background: yellowgreen;
+    border-color: yellowgreen;
+}
